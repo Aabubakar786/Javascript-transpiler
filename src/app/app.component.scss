@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+}
+
+.left-side {
+  background-color: #f0f0f0;
+}
+
+.right-side {
+  background-color: #e0e0e0;
+}
